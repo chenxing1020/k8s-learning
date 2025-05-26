@@ -1,0 +1,36 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+*.ids
+*.orig
+/out/
+/.idea_modules/
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/shelf/
+/.idea/dictionaries/
+/.idea/dataSources.ids
+/.idea/dataSources.local.xml
+/.idea/sqlDataSources.xml
+/.idea/dynamic.xml
+/.idea/uiDesigner.xml
+/.idea/gradle.xml
+/.idea/compiler.xml
+/.idea/caches/
+/.idea/libraries/
+
+# User-specific stuff (optional)
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/shelf/
+
+# Build artifacts
+build/
+target/
+
+# OS-specific files
+.DS_Store
+Thumbs.db

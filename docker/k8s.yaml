@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: test-demo
+spec:
+  containers:
+    - name: test-container
+      image: testdemo:1.0.0
+      volumeMounts:
+      - name: config-volume
+        mountPath: /config
+  volumes:
+    - name: config-volume
+      configMap:
+        name: test-config
+  restartPolicy: Never
